@@ -14,8 +14,8 @@ function Header(){
                     <Link href="/"><a  className="wdnavigation__link">Home</a></Link>
                     <Link href="/vendors" prefetch><a  className="wdnavigation__link">Vendors</a></Link>
                     <Link href="/photos" prefetch><a  className="wdnavigation__link">Photos</a></Link>
-                    <Link href="/community" prefetch><a  className="wdnavigation__link">Real Weddings</a></Link>
-                    <Link href="/blog" prefetch><a  className="wdnavigation__link">Blogs</a></Link>
+                    <Link href="/realwedding" prefetch><a  className="wdnavigation__link">Real Weddings</a></Link>
+                    <Link href="/blogs" prefetch><a  className="wdnavigation__link">Blogs</a></Link>
                 </div>
                 </div>
                 <section className="wduser__register__login">
