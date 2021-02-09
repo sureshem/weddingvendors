@@ -4,14 +4,14 @@ const allvendors = (props) => {
     //dropdown Json Format
     const breadcrumb=[
         { text: 'Home', link: '/' },
-        { text: 'Vendors',link:'/vendors/bridal-makeup' },
+        { text: 'Vendors',link:'/vendors' },
         { text: 'Bridal Makeup',isCurrentStep: true }
     ]
         return (
             <>		
 					<Breadcrumb title={"Language"} breadcrumb={breadcrumb} />
                     <section className="vendortile">
-                        <section className="vendortile__info" >
+                        <section className="vendortile__info" onClick={() => { window.location.assign('/vendors/bridal-makeup/vendor-Vidya-Tikari-2')}} >
                             <img src="https://image.wedmegood.com/resized/400X/uploads/vendor_cover_pic/32328/a7918014-0451-4f33-a44e-de26aea68ef8.jpg" className="vendortile__info__img" />
                             <p className="vendortile__info__title">
                                 <span className="vendortile__info__title__info">asdf </span> 

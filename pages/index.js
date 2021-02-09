@@ -56,7 +56,7 @@ export default function Home() {
               <p className="sv__cn__info_lst__det">Venues</p>
             </section>
           </section>
-            <Button>View All Categories</Button>
+            <Button><p onClick={() => { window.location.assign('/vendors')}}>View All Categories</p></Button>
         </section>
       </section>
 
