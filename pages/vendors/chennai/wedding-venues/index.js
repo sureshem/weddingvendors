@@ -5,7 +5,7 @@ export default function realwedding() {
   const pageTitle = "Wedding Venues"
   //dropdown Json Format
   const breadcrumb=[
-    { text: 'Home', link: '/' },
+    { text: 'Home', link: '/' }, 
     { text: 'Vendors', link: '/vendors' },
     { text: 'Wedding Venues', link: '/wedding-venues' },
     { text: 'Chennai', isCurrentStep: true }
