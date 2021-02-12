@@ -19,8 +19,8 @@ function Header(){
                 </div>
                 </div>
                 <section className="wduser__register__login">
-                    <span className="wduser__register__login__link wduser__register__login__link--heighlight">Sign Up</span>
-                    <span className="wduser__register__login__link">Log In</span>
+                    <span onClick={()=> window.location.assign('/signin')} className="wduser__register__login__link wduser__register__login__link--heighlight">Sign Up</span>
+                    <span onClick={()=> window.location.assign('/signup')} className="wduser__register__login__link">Log In</span>
                 </section>
             </section>
             </section>
