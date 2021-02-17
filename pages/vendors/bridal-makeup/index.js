@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Breadcrumb from '../../../components/breadcrumb'
+import PrizeInfo from '../../../core-components/page-component'
 const allvendors = (props) => {
     //dropdown Json Format
     const breadcrumb=[
@@ -251,6 +252,7 @@ const allvendors = (props) => {
         ]
         return (
             <>		
+               <PrizeInfo />
 					<Breadcrumb title={"Language"} breadcrumb={breadcrumb} />
                     <section className="vendortile">
                         {data.map((bm,index)=>
@@ -273,8 +275,8 @@ const allvendors = (props) => {
 			<style>
 				{
 					`
-						.vendortile{display: flex; flex-wrap: wrap; justify-content: center;}
-						.vendortile__info{border-radius: 2px;width:31%;position: relative;transition:0.5s all;box-shadow: rgba(0,0,0,.05) 0 1px 5px 0, 0 1px 2px rgba(0,0,0,.05);box-sizing: border-box;margin: 0 15px 30px;}
+						.vendortile{display: flex; flex-wrap: wrap; justify-content: center;margin-left:-15px;}
+						.vendortile__info{border-radius: 2px;width:300px;position: relative;transition:0.5s all;box-shadow: rgba(0,0,0,.05) 0 1px 5px 0, 0 1px 2px rgba(0,0,0,.05);box-sizing: border-box;margin: 0 15px 30px;}
 						.vendortile__info:hover{box-shadow: 0 5px 20px rgba(0,0,0,.2);cursor:pointer;}
 						.vendortile__info__img{border-radius: 2px 2px 0px 0px;background: #d7d7d7;width: 418px; height: 227px; object-fit: cover;}
 						.vendortile__info__price{padding:10px;}
