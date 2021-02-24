@@ -88,10 +88,10 @@ const Makeupinfo = (props) => {
                                 <span className="vendor__det__tile__info__reviewcount">1 reviews</span>
                             </p>
                             <p className="vendor__det__tile__info__vpw">
-                                <a href="" className="vendor__det__tile__info__vpw__lst"> <img className="vendor__det__tile__info__vpw__lst__img" src="https://cdn.shaadiwish.com/img/vendor-profile/photos.png" height="26" width="26"></img> Photos (5) </a>
+                                <a href="/vendors/bridal-makeup/vendor-Vidya-Tikari-2/portfolio" className="vendor__det__tile__info__vpw__lst"> <img className="vendor__det__tile__info__vpw__lst__img" src="https://cdn.shaadiwish.com/img/vendor-profile/photos.png" height="26" width="26"></img> Photos (5) </a>
                                 <a href="" className="vendor__det__tile__info__vpw__lst"> <img className="vendor__det__tile__info__vpw__lst__img" src="https://cdn.shaadiwish.com/img/vendor-profile/videos.png" height="26" width="26"></img>Videos (0)  </a>
                                 <a href="" className="vendor__det__tile__info__vpw__lst"> <img className="vendor__det__tile__info__vpw__lst__img" src="https://cdn.shaadiwish.com/img/vendor-profile/albums.png" height="26" width="26"></img>Albums (0) </a>
-                                <a href="" className="vendor__det__tile__info__vpw__lst"> <img className="vendor__det__tile__info__vpw__lst__img" src="https://cdn.shaadiwish.com/img/vendor-profile/review.png" height="26" width="26"></img>Write Review </a>
+                                <a href="/vendors/bridal-makeup/vendor-Vidya-Tikari-2/reviews" className="vendor__det__tile__info__vpw__lst"> <img className="vendor__det__tile__info__vpw__lst__img" src="https://cdn.shaadiwish.com/img/vendor-profile/review.png" height="26" width="26"></img>Write Review </a>
                             </p>
                         </section>
                         <section className="vendor__det__tile__ptlst">
@@ -111,7 +111,7 @@ const Makeupinfo = (props) => {
                             <a href="/vendors/bridal-makeup/vendor-Vidya-Tikari-2/portfolio">
                                 <img className="vendor__det__tile__ptlst__img" src="https://s3-us-west-2.amazonaws.com/shaadiwishnewbucket/a79a9912-46fe-49ae-a0a1-342842472132.png" />
                             </a>
-                            <p className="vendor__det__tile__ptlst__btn"> <Button>View All Photos</Button> </p>
+                            <p className="vendor__det__tile__ptlst__btn" onClick={()=>window.location.assign('/vendors/bridal-makeup/vendor-Vidya-Tikari-2/portfolio')}> <Button>View All Photos</Button> </p>
                         </section>
                         <section className="vendor__det__tile__revw">
                             <h3 className="vendor__det__tile__revw__title">Customer Reviews (3) </h3>
@@ -131,7 +131,7 @@ const Makeupinfo = (props) => {
                                 <p className="vendor__det__tile__revw__info__rt">4.0</p>
                                 <p className="vendor__det__tile__revw__info__desc"> Thank you again for the GREAT FOOD you prepared for our wedding. Its impossible to describe how awesome his food really is. </p>
                             </section>
-                            <p className="vendor__det__tile__ptlst__btn"> <Button bgcolor={`bgcolor`}> Write a Review</Button> </p>
+                            <p className="vendor__det__tile__ptlst__btn" onClick={()=>window.location.assign('/vendors/bridal-makeup/vendor-Vidya-Tikari-2/reviews')}> <Button bgcolor={`bgcolor`}> Write a Review</Button> </p>
                         </section>
                     </section>
                     <section className="vendor__det__tile__price">
